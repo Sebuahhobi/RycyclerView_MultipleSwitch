@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/r1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Relay 1"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <com.nightonke.jellytogglebutton.JellyToggleButton
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_13sdp"
+        app:jtbLeftBackgroundColor="@color/WhiteSmoke"
+        app:jtbLeftText="Off"
+        app:jtbLeftTextSize="@dimen/_18sdp"
+        app:jtbLeftThumbColor="@color/DeepSkyBlue"
+        app:jtbMoveToSameStateCallListener="true"
+        app:jtbRightBackgroundColor="@color/DarkBlue"
+        app:jtbRightText="On"
+        app:jtbRightTextSize="@dimen/_18sdp"
+        app:jtbRightThumbColor="@color/Aqua"
+        app:jtbTextMarginBottom="@dimen/_10sdp"
+        app:jtbTextMarginCenter="@dimen/_10sdp"
+        app:jtbTextMarginLeft="@dimen/_10sdp"
+        app:jtbTextMarginRight="@dimen/_10sdp"
+        app:jtbTextMarginTop="@dimen/_10sdp" />
+</RelativeLayout>
